@@ -1,0 +1,116 @@
+{
+	id: "0FA013F0AF8E98D6"
+	group: ""
+	order_index: 0
+	filename: "welcome"
+	title: "Welcome!"
+	icon: "minecraft:oak_sapling"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 93.5d
+			y: 41.0d
+			shape: "octagon"
+			subtitle: "Description"
+			description: ["FalexCraft is a 1.16.5 Modpack for player with medium experience. You can automate machines, build Buildings and explore the world."]
+			id: "12AE59E7E01157A0"
+			tasks: [{
+				id: "5E1209ED1A1FF349"
+				type: "checkmark"
+				title: "Welcome to FalexCraft"
+			}]
+		}
+		{
+			icon: "minecraft:spruce_fence_gate"
+			x: 93.5d
+			y: 38.5d
+			subtitle: "What does Gates mean?"
+			description: ["If you want to begin with a Mod, you must open the gate befor!"]
+			dependencies: ["12AE59E7E01157A0"]
+			id: "0F0074409DD8AA82"
+			tasks: [{
+				id: "7B07AB571F1DDED9"
+				type: "checkmark"
+				title: "Gates!"
+			}]
+		}
+		{
+			icon: "minecraft:dragon_head"
+			x: 96.0d
+			y: 41.0d
+			subtitle: "What does Challanges mean?"
+			description: ["If you want to finsish the Modpack you must complete all Challanges. For any succsessed Challange you get a price!"]
+			dependencies: ["12AE59E7E01157A0"]
+			id: "7CBB9D67C306C938"
+			tasks: [{
+				id: "020AA68519998E4E"
+				type: "checkmark"
+				title: "Challanges!"
+			}]
+		}
+		{
+			icon: "minecraft:player_head"
+			x: 93.5d
+			y: 43.5d
+			subtitle: "Links from the Creators!"
+			description: [
+				"Owners: Alex_265, Fabsi14"
+				"Discord:"
+				"Cursforge:"
+			]
+			dependencies: ["12AE59E7E01157A0"]
+			id: "1175E0CD5457D106"
+			tasks: [{
+				id: "7A55071733A0786F"
+				type: "checkmark"
+				title: "Credits!"
+			}]
+			rewards: [
+				{
+					id: "0C06D5D6D4526328"
+					type: "item"
+					item: {
+						id: "minecraft:player_head"
+						Count: 1b
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									-2040778051
+									-1610331362
+									-2068993715
+									1554620445
+								]
+								Properties: {
+									textures: [{
+										Value: "ewogICJ0aW1lc3RhbXAiIDogMTY2OTIwOTI2NDgyNSwKICAicHJvZmlsZUlkIiA6ICI4NjVjMzJiZGEwMDQ0YjFlODRhZGE5NGQ1Y2E5YTAxZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJGYWJzaTE0IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQ0NmI0ZmJiNzliYTZmNzkzMGM4MzEwMjE0MGIwNjgwNTM3MDE5OWExZGQ1YjEyMjE1ZjE1MzA3MmRkMjUwMWYiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yMzQwYzBlMDNkZDI0YTExYjE1YThiMzNjMmE3ZTllMzJhYmIyMDUxYjI0ODFkMGJhN2RlZmQ2MzVjYTdhOTMzIgogICAgfQogIH0KfQ=="
+										Signature: "LMwuNjBp3BWrlwWYQGPQam3QZYHCd63tJo7PvWiZlz0U3eLpLk3OXVcnDJEul+F8ncM0gWnDy4lTkBvlh6otbIyxPU4uPTzB9cnsJqM2xsdHAPmVJkkf7dv3w5TYGDuRPjAKV2MfnawrJxsNGU3eRp9v9GGTjPO1wyBtUdKqigFcCvZB223UcPO9n0KHRGXhaNhEAt+MNU3ccnSiF3p6RewocGcYzbIOpC89qzZD8ahdToKtCQnFWpMeRHIb2iwGSkpY/885a7qDE7Z9V08zywE+ZVa4alz3N+HJCAPYlhKWvZ6+LpT2JHeN+aUKHu/UQBXeTYSO/HtBAcxI3G7DEFtkyc/xY1Qoow9llYlHF2fAf27tieMNfbVnTk5VDpS++LuypDMSnRmC0v/lQYvdcW4CnEyGCYQTvhbABDoUr2LNXTkDdcMQoQmhhefAEEg7D6bxvHFvCAKJPaRqhi0VWyRhimUlZqFEMk7xQVwvYzF+cR0TKv/0/7sEofqeqHfTwb+0mhCRp5f+qUYzwyTeV4Fs+M/SRhE+sW4C6sqs1fcgDL+iqEemuGLt9N5hp+AiaHY+uYB3x5G24t/AMF7Qgo5cYU8xSqlI4zC8M1SCgTnNGNU+/agmTELizrjFWW1g31JDiPHBreseFbTBcGRTPEZCAbk6N8lg4Xq8khiNBy0="
+									}]
+								}
+								Name: "Fabsi14"
+							}
+						}
+					}
+				}
+				{
+					id: "7A1774633AEE6277"
+					type: "item"
+					item: "minecraft:player_head"
+				}
+			]
+		}
+		{
+			icon: "itemfilters:custom"
+			x: 91.0d
+			y: 41.0d
+			description: ["There are many custom recipes. One is easyier the other is heavier!"]
+			dependencies: ["12AE59E7E01157A0"]
+			id: "53C0ECDE30116583"
+			tasks: [{
+				id: "34A91BCBE554BAAD"
+				type: "checkmark"
+				title: "Custom recipes and Features!"
+			}]
+		}
+	]
+}

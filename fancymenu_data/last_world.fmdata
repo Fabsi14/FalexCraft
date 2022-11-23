@@ -1,0 +1,7 @@
+type = last_world
+
+last_world {
+  is_server = false
+  world = C:/Users/Anwender/curseforge/minecraft/Instances/FalexCraft/saves/Testwelt
+}
+

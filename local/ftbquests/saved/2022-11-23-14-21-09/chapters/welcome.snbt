@@ -1,0 +1,60 @@
+{
+	id: "0FA013F0AF8E98D6"
+	group: ""
+	order_index: 0
+	filename: "welcome"
+	title: "Welcome!"
+	icon: "minecraft:oak_sapling"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: -0.5d
+			hide_dependency_lines: false
+			id: "500209F05FD3FCF0"
+			tasks: [{
+				id: "08B1D65F761DF363"
+				type: "checkmark"
+				title: "Welcome to FalexCraft!"
+			}]
+		}
+		{
+			icon: "minecraft:spruce_fence_gate"
+			x: 0.0d
+			y: -3.5d
+			hide_dependency_lines: false
+			dependency_requirement: "one_started"
+			id: "02B53D3B5302FFF8"
+			tasks: [{
+				id: "36F8A6E299AED752"
+				type: "checkmark"
+				title: "Gates"
+			}]
+		}
+		{
+			icon: "minecraft:dragon_head"
+			x: 3.0d
+			y: -0.5d
+			hide_dependency_lines: false
+			dependency_requirement: "one_completed"
+			id: "314213ACA2834735"
+			tasks: [{
+				id: "62FFD862782B78CA"
+				type: "checkmark"
+				title: "Challanges"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -0.5d
+			dependency_requirement: "one_completed"
+			id: "330EFF8349E5E161"
+			tasks: [{
+				id: "4EC4ED54D14177DC"
+				type: "checkmark"
+				title: "Credits"
+			}]
+		}
+	]
+}

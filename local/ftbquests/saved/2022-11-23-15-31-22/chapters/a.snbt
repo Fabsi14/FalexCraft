@@ -1,0 +1,19 @@
+{
+	id: "7751E8929C75314C"
+	group: ""
+	order_index: 1
+	filename: "a"
+	title: "a"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: 0.0d
+		y: 0.0d
+		id: "4BD60D105ECEBFFB"
+		tasks: [{
+			id: "0AFE08FFD20162D0"
+			type: "item"
+			item: "minecraft:stripped_jungle_log"
+		}]
+	}]
+}

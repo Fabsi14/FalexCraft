@@ -1,0 +1,22 @@
+#Maximum length of Horizontal Trusses
+#Does not affect already existing Trusses when changed
+#Default: 8
+#Range: 3 ~ 128
+maxTrussLength = 8
+
+["Post Types"]
+	gold = true
+	concrete = true
+	nickel = true
+	electrum = true
+	nether = true
+	concreteleaded = true
+	#For the removal of unwanted post variants.
+	#Simply set any of them to "false" to "remove", ez..
+	iron = true
+	copper = true
+	silver = true
+	uranium = true
+	constantan = true
+	lead = true
+

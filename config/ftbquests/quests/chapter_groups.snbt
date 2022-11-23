@@ -1,0 +1,10 @@
+{
+	chapter_groups: [
+		{ id: "3C6EC4516296E56D", title: "FalexCraft" }
+		{ id: "66A6795C3A15C901", title: "Tools and Armor" }
+		{ id: "36F64D53E232F3E7", title: "Tech" }
+		{ id: "3A56902A6098E2F2", title: "Storage" }
+		{ id: "5BD7B52F4BDDDFE4", title: "Logistic" }
+		{ id: "7E627E382A25FBC3", title: "Magic" }
+	]
+}

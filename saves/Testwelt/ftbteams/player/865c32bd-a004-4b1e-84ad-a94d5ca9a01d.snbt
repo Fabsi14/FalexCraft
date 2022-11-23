@@ -1,0 +1,19 @@
+{
+	id: "865c32bd-a004-4b1e-84ad-a94d5ca9a01d"
+	type: "player"
+	player_name: "Fabsi14"
+	ranks: {
+		865c32bd-a004-4b1e-84ad-a94d5ca9a01d: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "Fabsi14"
+		"ftbteams:color": "#59FFBC"
+		"ftbchunks:block_edit_mode": "allies"
+		"ftbchunks:block_interact_mode": "allies"
+		"ftbteams:description": ""
+		"ftbteams:free_to_join": 0b
+		"ftbchunks:allow_fake_players": 1b
+	}
+	message_history: [ ]
+	extra: { }
+}
