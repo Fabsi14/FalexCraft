@@ -8,7 +8,10 @@ settings.logErroringRecipes = true
 console.info('Hello, World! (You will see this line every time server resources reload)')
 
 onEvent('recipes', event => {
-	// Change recipes here
+  event.remove({output: 'xnet:controller'})
+  event.remove({output: 'xnet:router'})
+  event.remove({output: 'xnet:wireless_router'})
+  event.remove({output: 'xnet:redstone_proxy'})
 })
 
 onEvent('item.tags', event => {
